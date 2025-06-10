@@ -4,8 +4,45 @@
 }
 
 .logo {
-  max-height: 15dvh;
+  max-height: 20dvh;
 }
+
+
+
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen AND (max-width: 767px) {
 
