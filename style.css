@@ -64,7 +64,7 @@ a {
   }
 
   .truncate-email {
-    width: 250px;
+    width: 130px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
