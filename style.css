@@ -1,4 +1,16 @@
 .side-bar {
-  height: 100%;
-  background-color: black;
+  height: 100vh;
+  /* background-color: rgb(219, 215, 185); */
+}
+
+.logo {
+  max-height: 15dvh;
+}
+
+@media screen AND (max-width: 767px) {
+
+  .side-bar {
+    height: auto;
+  }
+
 }
