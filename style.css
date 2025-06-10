@@ -15,7 +15,7 @@ a {
 .quicksand-font {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 900;
   font-style: normal;
 }
 
@@ -46,11 +46,28 @@ a {
 
 
 
+@media screen AND (max-width: 1390px) {
 
-@media screen AND (max-width: 767px) {
+  .truncate-email {
+    width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+}
+
+@media screen AND (max-width: 768px) {
 
   .side-bar {
     height: auto;
+  }
+
+  .truncate-email {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
 }
