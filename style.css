@@ -65,7 +65,7 @@ a {
 @media screen AND (max-width: 768px) {
 
   .side-bar {
-    height: 100vh;
+    height: 100%;
   }
 
   .logo {
