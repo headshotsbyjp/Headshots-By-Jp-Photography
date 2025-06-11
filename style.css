@@ -25,6 +25,7 @@ a {
 
 .border-custom {
   border-right: solid;
+  background-color: white;
 }
 
 .icon-display {
@@ -37,6 +38,9 @@ a {
   display: none;
 }
 
+.jp-photo{
+  height: 60dvh;
+}
 
 
 
