@@ -4,7 +4,7 @@
 }
 
 .logo {
-  max-height: 10dvh;
+  height: 10dvh;
 }
 
 
@@ -28,7 +28,11 @@ a {
 @media screen AND (max-width: 768px) {
 
   .side-bar {
-    height: auto;
+    height: 100vh;
+  }
+
+  .logo{
+    height: 8dvh;
   }
 
 
