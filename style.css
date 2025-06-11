@@ -1,6 +1,9 @@
 .side-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   height: 100vh;
-  /* background-color: rgb(219, 215, 185); */
 }
 
 .logo {
@@ -19,6 +22,9 @@ a {
   font-style: normal;
 }
 
+.border-custom {
+  border-right: solid;
+}
 
 
 
@@ -31,9 +37,25 @@ a {
     height: 100vh;
   }
 
-  .logo{
+  .logo {
     height: 8dvh;
   }
 
+  .border-custom {
+    border-right: hidden;
+  }
+
+}
+
+@media screen AND (max-width: 425px) {
+
+  .side-bar {
+    flex-direction: row;
+    height: 100vh;
+  }
+
+  .logo {
+    height: 8dvh;
+  }
 
 }
