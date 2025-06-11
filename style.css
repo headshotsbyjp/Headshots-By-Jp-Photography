@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
   height: 100vh;
 }
 
@@ -26,6 +27,15 @@ a {
   border-right: solid;
 }
 
+.icon-display {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.nav-name {
+  display: none;
+}
 
 
 
@@ -41,9 +51,6 @@ a {
     height: 8dvh;
   }
 
-  .border-custom {
-    border-right: hidden;
-  }
 
 }
 
@@ -51,11 +58,34 @@ a {
 
   .side-bar {
     flex-direction: row;
-    height: 100vh;
+    padding: 0;
+    height: 10dvh;
   }
 
   .logo {
     height: 8dvh;
   }
 
+  .border-custom {
+    border-right: hidden;
+  }
+
+  .contact-icons {
+    gap: 10px;
+  }
+
+  .icon-display {
+    font-size: 1.56rem;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+
+  .nav-name {
+    display: inline;
+    padding: 0em .1em 0em
+  }
+
+  .body-name {
+    display: none;
+  }
 }
