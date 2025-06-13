@@ -36,6 +36,7 @@ a {
   font-style: normal !important;
   text-decoration: underline;
 }
+
 .cutive-mono-regular-no-underline {
   font-family: "Cutive Mono", monospace !important;
   font-weight: 400 !important;
@@ -46,6 +47,12 @@ a {
 .border-custom {
   border-right: solid;
   background-color: white;
+}
+
+.stay-put {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
 }
 
 .icon-display {
@@ -84,7 +91,7 @@ a {
 }
 
 
-.review-card{
+.review-card {
   max-width: 45dvh;
 }
 
@@ -134,5 +141,11 @@ a {
 
   .body-name {
     display: none;
+  }
+
+  .stay-put {
+    position: static !important;
+    top: auto !important;
+    z-index: auto !important;
   }
 }
