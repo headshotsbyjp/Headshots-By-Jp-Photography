@@ -30,6 +30,14 @@ a {
   font-style: normal;
 }
 
+.cutive-mono-regular {
+  font-family: "Cutive Mono", monospace !important; 
+  font-weight: 400 !important;
+  font-style: normal !important;
+  text-decoration: underline;
+}
+
+
 .border-custom {
   border-right: solid;
   background-color: white;
