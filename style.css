@@ -31,7 +31,7 @@ a {
 }
 
 .cutive-mono-regular {
-  font-family: "Cutive Mono", monospace !important; 
+  font-family: "Cutive Mono", monospace !important;
   font-weight: 400 !important;
   font-style: normal !important;
   text-decoration: underline;
@@ -55,6 +55,10 @@ a {
 
 .jp-photo {
   height: 60dvh;
+}
+
+.portfolio-img {
+  height: 45dvh
 }
 
 .btn-outline-info {
