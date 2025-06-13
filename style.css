@@ -36,6 +36,11 @@ a {
   font-style: normal !important;
   text-decoration: underline;
 }
+.cutive-mono-regular-no-underline {
+  font-family: "Cutive Mono", monospace !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
 
 
 .border-custom {
