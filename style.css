@@ -170,13 +170,15 @@ a {
 
   .body-wrapper {
     display: unset;
+    overflow-x: hidden;
   }
 
 
   /* nav */
   .side-bar {
     flex-direction: row;
-    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 10dvh;
     position: unset;
   }
@@ -216,6 +218,23 @@ a {
 
   .hero-text {
     padding: 1rem;
+  }
+
+  .jp-photo {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50dvh;
+  }
+
+
+
+  /* portfolio */
+
+  .portfolio-img {
+    max-height: 30dvh;
+    width: 30dvh;
+    object-fit: cover;
+    object-position: top;
   }
 
 }
