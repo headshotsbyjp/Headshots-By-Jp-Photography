@@ -23,15 +23,20 @@ a {
   height: 10dvh;
 }
 
+/* Landing and portfolio section */
 .main-landing {
   min-height: 100vh;
   display: flex;
   align-items: center;
 }
 
-.portfolio,
-.reviews {
-  min-height: 100vh;
+/* Reviews Section */
+.reviews,
+.portfolio {
+  min-height: 50vh;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .quicksand-font {
@@ -74,8 +79,12 @@ a {
   height: 60dvh;
 }
 
+
 .portfolio-img {
-  height: 45dvh
+  max-height: 375px;
+  width: 375px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .btn-outline-info {
@@ -97,7 +106,8 @@ a {
 
 
 .review-card {
-  max-width: 45dvh;
+  height: 45dvh;
+
 }
 
 @media screen AND (max-width: 768px) {
