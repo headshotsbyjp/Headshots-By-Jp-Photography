@@ -1,13 +1,21 @@
-html,
+/* global */
+
+/* html,
 body {
-  margin: 0;
-}
+
+} */
 
 a {
   text-decoration: none;
   color: #0b429d;
 }
 
+.body-wrapper {
+  display: flex;
+}
+
+
+/* Sidebar nav */
 .side-bar {
   display: flex;
   flex-direction: column;
@@ -23,14 +31,48 @@ a {
   height: 10dvh;
 }
 
-/* Landing and portfolio section */
+.border-custom {
+  border-right: solid;
+  background-color: white;
+}
+
+.icon-display {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.nav-wrapper {
+  display: flex;
+}
+
+.nav-name {
+  display: none;
+}
+
+
+/* hero section */
 .main-landing {
   min-height: 100vh;
   display: flex;
   align-items: center;
 }
 
-/* Reviews Section */
+.jp-photo {
+  height: 60dvh;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+
+
+
+/* Review and portfolio Section */
 .reviews,
 .portfolio {
   min-height: 50vh;
@@ -39,6 +81,26 @@ a {
   align-items: center;
 }
 
+
+
+/* portfolio images */
+
+.portfolio-img {
+  max-height: 375px;
+  width: 375px;
+  object-fit: cover;
+  object-position: top;
+}
+
+
+
+/* review cards */
+.review-card {
+  height: fit-content;
+}
+
+
+/* fonts and bootstrap adjustments */
 .quicksand-font {
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
@@ -60,33 +122,6 @@ a {
 }
 
 
-.border-custom {
-  border-right: solid;
-  background-color: white;
-}
-
-.icon-display {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.2;
-}
-
-.nav-name {
-  display: none;
-}
-
-.jp-photo {
-  height: 60dvh;
-}
-
-
-.portfolio-img {
-  max-height: 375px;
-  width: 375px;
-  object-fit: cover;
-  object-position: top;
-}
-
 .btn-outline-info {
   --bs-btn-color: #0b429d;
   --bs-btn-border-color: #0b429d;
@@ -105,30 +140,45 @@ a {
 }
 
 
-.review-card {
-  height: 45dvh;
-
-}
+/* media queries */
 
 @media screen AND (max-width: 768px) {
 
-  .side-bar {
-    height: 100%;
-  }
-
+  /* nav */
   .logo {
     height: 8dvh;
   }
 
+  /* hero */
 
+  /* portfolio section */
+
+  .portfolio-img {
+    margin-top: 15px;
+  }
+
+  /* reviews section */
+
+  .review-card {
+    margin-top: 15px;
+  }
 }
 
 @media screen AND (max-width: 425px) {
 
+  /* global/body */
+
+  .body-wrapper {
+    display: unset;
+  }
+
+
+  /* nav */
   .side-bar {
     flex-direction: row;
     padding: 0;
     height: 10dvh;
+    position: unset;
   }
 
   .logo {
@@ -158,9 +208,14 @@ a {
     display: none;
   }
 
-  .stay-put {
-    position: static !important;
-    top: auto !important;
-    z-index: auto !important;
+  .nav-wrapper {
+    display: unset;
   }
+
+  /* hero */
+
+  .hero-text {
+    padding: 1rem;
+  }
+
 }
