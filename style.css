@@ -67,11 +67,11 @@ a {
 
 
 
-/* Review and portfolio Section */
+/* Review, portfolio, contact Section */
 .reviews,
-.portfolio {
-  min-height: 50vh;
-  margin-top: 50px;
+.portfolio,
+.contact {
+  min-height: 75vh;
   display: flex;
   align-items: center;
 }
