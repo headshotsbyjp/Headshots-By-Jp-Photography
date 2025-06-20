@@ -97,6 +97,12 @@ a {
   height: fit-content;
 }
 
+/* Contact sectio */
+
+.contact-info {
+  font-size: 1.75rem;
+}
+
 
 /* fonts and bootstrap adjustments */
 .quicksand-font {
@@ -235,4 +241,10 @@ a {
     object-position: top;
   }
 
+
+  /* contact */
+
+  .contact-info {
+    font-size: 1rem;
+  }
 }
