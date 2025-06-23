@@ -9,6 +9,9 @@ a {
   display: flex;
 }
 
+/* *{
+  outline: 1px solid red;
+} */
 
 /* Sidebar nav */
 .side-bar {
@@ -242,7 +245,7 @@ a {
   .jp-photo {
     padding-left: 10px;
     padding-right: 10px;
-    height: 50dvh;
+    height: 45dvh;
   }
 
 
