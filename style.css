@@ -74,7 +74,8 @@ a {
 .reviews,
 .portfolio,
 .contact,
-.pricing {
+.pricing,
+.brand {
   min-height: 75vh;
   display: flex;
   align-items: center;
@@ -97,6 +98,18 @@ a {
 /* review cards */
 .review-card {
   height: fit-content;
+}
+
+.eagle-vision {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.eagle-vision-logo{
+   max-height: 200px;
+  width: 200px;
 }
 
 /* Contact sectio */
@@ -259,6 +272,11 @@ a {
     object-position: top;
   }
 
+  .eagle-vision {
+    display: block;
+    text-align: center;
+    gap: 1rem;
+  }
 
   /* contact */
 
