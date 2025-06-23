@@ -9,10 +9,6 @@ a {
   display: flex;
 }
 
-/* *{
-  outline: 1px solid red;
-} */
-
 /* Sidebar nav */
 .side-bar {
   display: flex;
@@ -182,11 +178,6 @@ a {
   /* nav */
   .logo {
     height: 8dvh;
-  }
-
-  .border-custom {
-    position: sticky;
-    top: 0;
   }
 
   /* hero */
