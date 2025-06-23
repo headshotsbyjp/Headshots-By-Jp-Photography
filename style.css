@@ -107,8 +107,8 @@ a {
   gap: 1rem;
 }
 
-.eagle-vision-logo{
-   max-height: 200px;
+.eagle-vision-logo {
+  max-height: 200px;
   width: 200px;
 }
 
@@ -184,6 +184,11 @@ a {
     height: 8dvh;
   }
 
+  .border-custom {
+    position: sticky;
+    top: 0;
+  }
+
   /* hero */
 
   /* portfolio section */
@@ -224,6 +229,8 @@ a {
 
   .border-custom {
     border-right: hidden;
+    position: sticky;
+    top: 0;
   }
 
   .contact-icons {
@@ -256,8 +263,6 @@ a {
   }
 
   .jp-photo {
-    padding-left: 10px;
-    padding-right: 10px;
     height: 45dvh;
   }
 
