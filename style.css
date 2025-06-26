@@ -83,7 +83,7 @@ a {
 /* portfolio images */
 
 .portfolio-img {
-  max-height: 350px;
+  height: 450px;
   width: 350px;
   object-fit: cover;
   object-position: top;
@@ -262,7 +262,7 @@ a {
   /* portfolio */
 
   .portfolio-img {
-    max-height: 30dvh;
+    height: 40dvh;
     width: 30dvh;
     object-fit: cover;
     object-position: top;
