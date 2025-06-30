@@ -9,6 +9,8 @@ a {
   display: flex;
 }
 
+*{outline: 1px solid red;}
+
 /* Sidebar nav */
 .side-bar {
   display: flex;
@@ -186,6 +188,8 @@ a {
   }
 
   /* hero */
+
+  
 
   /* portfolio section */
 
