@@ -178,7 +178,7 @@ a {
 
 /* media queries */
 
-@media screen AND (max-width: 768px) {
+@media screen AND (max-width: 820px) {
 
   /* nav */
   .logo {
