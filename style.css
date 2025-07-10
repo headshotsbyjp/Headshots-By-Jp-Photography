@@ -144,6 +144,11 @@ a {
   font-style: normal !important;
 }
 
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
 
 .btn-outline-info {
   --bs-btn-color: #0b429d;
